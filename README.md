@@ -6,6 +6,16 @@ This guide shows you how to install and run the **Pterodactyl Panel** on CodeSan
 
 ---
 
+## ⚙️ Step 0: Install Dependencies
+Before starting, make sure Docker Compose is installed:
+
+```bash
+apt update
+apt install docker-compose -y
+```
+
+---
+
 ## 📦 Step 1: Create Project Directories
 ```bash
 mkdir pterodactyl
